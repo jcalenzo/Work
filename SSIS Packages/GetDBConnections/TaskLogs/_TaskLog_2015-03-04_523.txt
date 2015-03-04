@@ -1,0 +1,149 @@
+Microsoft (R) SQL Server Execute Package Utility
+Version 11.0.5058.0 for 64-bit
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Started:  5:23:52 AM
+Progress: 2015-03-04 05:23:54.97
+   Source: Data Flow Task 
+   Validating: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:54.97
+   Source: Data Flow Task 
+   Validating: 33% complete
+End Progress
+Warning: 2015-03-04 05:23:55.35
+   Code: 0x800470C8
+   Source: Data Flow Task OLE DB Destination [11]
+   Description: The external columns for OLE DB Destination are out of synchronization with the data source columns. The column "InstanceID" needs to be added to the external columns.
+End Warning
+Progress: 2015-03-04 05:23:55.35
+   Source: Data Flow Task 
+   Validating: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:55.88
+   Source: Data Flow Task 
+   Validating: 100% complete
+End Progress
+Progress: 2015-03-04 05:23:56.81
+   Source: Execute SQL Task 
+   Executing query "Delete From Dbo.DatabaseConnections".: 100% complete
+End Progress
+Progress: 2015-03-04 05:23:56.81
+   Source: Data Flow Task 
+   Validating: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:56.81
+   Source: Data Flow Task 
+   Validating: 33% complete
+End Progress
+Warning: 2015-03-04 05:23:56.81
+   Code: 0x800470C8
+   Source: Data Flow Task OLE DB Destination [11]
+   Description: The external columns for OLE DB Destination are out of synchronization with the data source columns. The column "InstanceID" needs to be added to the external columns.
+End Warning
+Progress: 2015-03-04 05:23:56.83
+   Source: Data Flow Task 
+   Validating: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:56.84
+   Source: Data Flow Task 
+   Validating: 100% complete
+End Progress
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Last_Update" (48) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Catalog_Connection" (49) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Session_Manager_Endpoint" (50) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Session_Manager_Timeout" (51) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Session_Manager_Number_Of_Connections" (52) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Warning: 2015-03-04 05:23:56.84
+   Code: 0x80047076
+   Source: Data Flow Task SSIS.Pipeline
+   Description: The output column "Application_Server" (53) on output "OLE DB Source Output" (45) and component "OLE DB Source" (34) is not subsequently used in the Data Flow task. Removing this unused output column can increase Data Flow task performance.
+End Warning
+Progress: 2015-03-04 05:23:56.86
+   Source: Data Flow Task 
+   Prepare for Execute: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:56.86
+   Source: Data Flow Task 
+   Prepare for Execute: 33% complete
+End Progress
+Progress: 2015-03-04 05:23:56.86
+   Source: Data Flow Task 
+   Prepare for Execute: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:56.86
+   Source: Data Flow Task 
+   Prepare for Execute: 100% complete
+End Progress
+Progress: 2015-03-04 05:23:56.87
+   Source: Data Flow Task 
+   Pre-Execute: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:56.87
+   Source: Data Flow Task 
+   Pre-Execute: 33% complete
+End Progress
+Progress: 2015-03-04 05:23:56.89
+   Source: Data Flow Task 
+   Pre-Execute: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:56.91
+   Source: Data Flow Task 
+   Pre-Execute: 100% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Post Execute: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Post Execute: 33% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Post Execute: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Post Execute: 100% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Cleanup: 0% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Cleanup: 33% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Cleanup: 66% complete
+End Progress
+Progress: 2015-03-04 05:23:56.94
+   Source: Data Flow Task 
+   Cleanup: 100% complete
+End Progress
+DTExec: The package execution returned DTSER_SUCCESS (0).
+Started:  5:23:52 AM
+Finished: 5:23:56 AM
+Elapsed:  4.712 seconds
